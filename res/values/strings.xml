@@ -3,5 +3,17 @@
 
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">flipperPicture</string>
+	
 
+    <string name="hello1">Hello World, Page1</string>
+	<string name="hello2">Hello World, Page2</string>
+    <string name="hello3">Hello World, Page3. Some content3</string>
+	<string-array name="photoNames">
+		<item>photo1</item>
+		<item>photo2</item>
+		<item>photo3</item>
+		<item>photo4</item>
+		<item>photo5</item>
+	</string-array>
+	
 </resources>

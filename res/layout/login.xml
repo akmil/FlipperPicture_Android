@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="#B2C2E0"
+	android:gravity="center">
+	<!--EditText
+		android:text="enter mail"
+		android:inputType="textEmailAddress"
+		android:id="@+id/loginEmalText"
+		android:shadowColor="#3173B0">
+	</EditText-->
+	
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:inputType="textEmailAddress"
+		android:width="200dp"
+		android:padding="12dp"
+		android:background="#3399cc"
+		android:textColor="#ffffcc"
+		android:text="enter mail"
+		android:id="@+id/eEmailText">
+	</EditText>
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="enter password"
+		android:inputType="textPassword"
+		android:background="#ffffff"
+		android:cursorVisible="true"
+		android:colorFocusedHighlight="#ff9900"
+		android:textColor="#666699"
+		android:layout_margin="10dp"
+		android:width="200dp"
+		android:padding="12dp"
+		android:id="@+id/ePasswordText"
+	>
+	</EditText>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sign In"
+		android:textColorHighlight="#00cc00"
+		android:onClick="onClickSignIn"
+		android:id="@+id/bSignIn"/>
+	<!--		android:background="#3399cc" >
+	<TextView
+		android:text="info here"
+		android:gravity="bottom|center"
+		android:layout_width="match_parent"
+		android:layout_marginTop="40dp"
+		android:id="@+id/info"/-->
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info here" 
+		android:id="@+id/info"
+		android:layout_marginTop="40dp"
+		android:textColor="#333333"
+		android:textSize="20dp"/>
+	
+    
+</LinearLayout>
